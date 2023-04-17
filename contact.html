@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Written by Christian Smith, Spring 2023 -->
+
+<html xml:lang="en" lang="en"
+    xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- TITLE -->
+    <title>Contact Me</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<a href="index.html">
+		<img 
+		id="logo"
+		src="../images/sv650_logo.png"
+		alt="SV650S Logo"
+		width="200"
+		height="200"
+		/>
+	</a>
+	<h1 id="header">
+		<i class="hdrmain">The Suzuki SV650 Motorcycle</i>
+		<i class="hdrshdw">The Suzuki SV650 Motorcycle</i>
+	</h1>
+	<div id="nav">
+		<ul style="	list-style-type: none">
+			<li><br/>
+<!-- NAVIGATOR POSITION class="navpos" -->
+			<li><a href="index.html">Welcome</a><br/><br/>
+			<li><a href="intro.html">Introduction</a><br/><br/>
+			<li><a href="history.html">History</a><br/><br/>
+			<li><a href="table.html">Model Years</a><br/><br/>
+			<li><a href="images.html">Images</a><br/><br/>
+			<li><a href="dictionary.html">Dictionary</a><br/><br/>
+			<li><a href="links.html">Links</a><br/><br/>
+		</ul>
+	</div>
+	<div id="section">
+<!-- CONTENT HEADER -->
+		<h2 class="hdr">
+			Contact Me!
+		</h2>
+		<form action="http://evc-cit.info/cgi-bin/echoform.cgi" method="post" enctype="text/plain">
+
+		<h3>Questions? Comments? Concerns? Want to tell me how great your SV650 is?</h3>
+				Click<a href="mailto:chtasm@gmail.com?subject=SV650%20Site%20Mail"> here </a>to send me electronic mail directly! Or feel free to fill out the form below...
+		<table style="width:700px;">
+			<tr>
+				<td class="leg">Your name:</td> 
+				<td>
+					<input type="text" name="name" size="50" maxlength="100" />
+				</td>
+			</tr>
+			<tr>
+				<td class="leg">Your email:</td> 
+				<td>
+					<input type="email" name="email" size="50" maxlength="100" />
+				</td>
+			</tr>
+			<tr>
+				<td class="leg">How old are you?</td>
+				<td>
+					<input type="radio" name="age" value="<18"   					/> &lt;18
+					<input type="radio" name="age" value="18-25" checked="checked"  /> 18-25
+					<input type="radio" name="age" value="26-40" 					/> 26-40
+					<input type="radio" name="age" value="41-65" 					/> 41-65
+					<input type="radio" name="age" value="65+" 	 					/> 65+
+					<input type="radio" name="age" value="decline"   				/> Prefer not to say...
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="leg">Which model year(s) of SV650 do you own? Check any and all that apply:</td>
+			<tr>
+				<td colspan="2">
+					<input type="checkbox" name="year" value="9902" 	/> '99-'02
+					<input type="checkbox" name="year" value="0304" 	/> '03-'04
+					<input type="checkbox" name="year" value="0506" 	/> '05-'06
+					<input type="checkbox" name="year" value="0709" 	/> '07-'09
+					<input type="checkbox" name="year" value="2017" 	/>  2017
+				</td>
+			</tr>
+			<tr>
+				<td class="leg">Comments:</td>
+				<td>
+					<textarea name="comments" rows="6" cols="73"></textarea>
+				</td>
+			</tr>
+		</table>
+		
+		<div style="text-align:justify;">
+			<input type="submit" value="Send Data" />
+			<input type="reset" value="Reset Form" />
+		</div>
+		
+	</form>
+	</div>
+	<div id="footer">
+		<p style="text-indent: 30px;">
+			<a href="about.html">About</a> |
+			<a class="navpos" href="contact.html">Contact</a> |
+			<a href="splash.html">Splash</a>
+		</p>
+		<p style="text-indent:26px;">
+			2023 &#169; Smith Enterprises
+		</p>
+	</div>
+</body>
+</html>
